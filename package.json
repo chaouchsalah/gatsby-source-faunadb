@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-source-faunadb",
+  "name": "gatsby-source-fauna-id",
   "description": "A Gatsby source plugin to fetch documents from Fauna DB.",
   "version": "1.0.0",
   "author": "Paul Cuthbertson <gatsby-source-faunadb.npm@paulcuth.me.uk>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulcuth/gatsby-source-faunadb.git"
+    "url": "git+https://github.com/paulcuth/gatsby-source-faunadb.git"
   },
   "bugs": {
     "url": "https://github.com/paulcuth/gatsby-source-faunadb/issues"
@@ -36,5 +36,7 @@
   },
   "engines": {
     "node": ">=10.13.0"
-  }
+  },
+  "homepage": "https://github.com/paulcuth/gatsby-source-faunadb#readme",
+  "main": "index.js"
 }

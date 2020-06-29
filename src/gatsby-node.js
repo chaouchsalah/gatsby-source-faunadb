@@ -32,7 +32,7 @@ exports.sourceNodes = async (
 
       createNode({
         ...document.data,
-        id: createNodeId(`faunadb-${type}-${id}`),
+        nodeId: createNodeId(`faunadb-${type}-${id}`),
         _id: document.ref.id,
         _ts: document.ts,
         parent: null,
